@@ -1,0 +1,20 @@
+$colorFondo: #f3e5d3;
+$colorFuentes: #F28585;
+$colorNav: #F2C6C2;
+$colorFooter: #F28585;
+
+
+html
+{
+font-size: 62.5%;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

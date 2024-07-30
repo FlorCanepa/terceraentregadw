@@ -1,0 +1,45 @@
+nav{
+    background-color: $colorNav;
+    ul {
+        list-style:georgian;
+    display: flex;
+        li {
+        display: inline-block;  
+      margin-right: 20px;
+            a {
+                color: rgb(10, 10, 10);
+            text-decoration: none;
+            font-size: 2rem;
+      }
+    }
+    }
+  }
+
+  form label {
+    display: block;
+    input {
+      width: 70%;
+    }
+  }
+  div.cajasAdopcion figure img {
+    border-radius: 15px;
+  }
+  div.cajasAdopcion figure p {
+    font-weight: bolder;
+  }
+  section.sectionGaleria figure a{
+    text-decoration: none;
+  }
+  div.boton.text-bolder {
+    text-decoration: none;
+  }
+  
+  p{ 
+    font-weight: 100;
+    font-size: 2rem;
+  }
+  section.sectionGaleria div.cajasAdopcion:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+    transition:all 1s;
+  }

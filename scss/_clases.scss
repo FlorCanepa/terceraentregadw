@@ -1,0 +1,254 @@
+.text-bolder {
+    font-weight: bolder;
+  }
+  .cajasAdopcion {
+    background-color:lightcyan;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(10, 10, 10, 0.5);
+    box-shadow: 3px 3px 15px rgba(10, 10, 10, 0.5);
+  
+  }
+  .boton {
+    background-color: pink;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  }
+  .navsize{
+    font-size: large;
+  }
+  .text-rosargb 
+{
+    color: rgb(247, 63, 94);
+}
+.text-violet
+{
+    color:violet;
+}
+.text-violetargb 
+{
+    color: rgb(228, 99, 233);
+}
+.text-naranja{
+color: orange;  
+}  
+.text-center
+{ 
+text-align:center ;
+align-items: start;
+font-size:x-large;
+
+}
+.text-right
+{
+text-align:start;
+font-size:x-large;
+font-style:normal;
+}
+.img-header
+{
+  
+ width:100%;
+
+}
+.redes-Center {
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  background-color: $colorFooter;
+  margin-top: 10px;
+}
+.footer-flex{
+  background-color: $colorFooter;
+  display: flex;
+  display: block;
+  margin-top: 100px;
+}
+
+.text-left{
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: normal;
+  text-decoration:overline;
+
+}
+.box-contacto{
+  background-color:#fcc4c4 ;
+  border: solid#f7938a ;
+  margin-right: 10px;
+  font-size: 1.8rem;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.box-texto{
+  background-color:rgba(210, 241, 163);
+  width: auto;
+  height: auto;
+  border:dashed orange;
+  margin: 50px 20px;
+  padding:50px 80px ;
+  overflow: auto;
+
+}
+#btnError {
+  text-decoration: none;
+}
+.tamaño-formulario{
+  font-size: medium;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color:aliceblue;
+  color:#F28585;
+}
+.caja-form{
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+}
+.titulo-principal{
+
+    text-align: center;
+    }
+    .botonera ul li a:hover{
+    color: orange;
+    font-weight: 600;
+    background-size: 100% 3px;}
+    
+    .botonera ul li a{
+      font-size: 1.8rem;
+      text-decoration:none;
+      color:rgba(255, 68, 0, 0.788) ;
+      background:linear-gradient(currentColor,currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .3s;
+    }
+    
+    .sectionGaleria{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+      justify-content: space-evenly;
+    }
+    .img-adoptados{
+      width: 250px;
+      height: 300px;
+    }
+    .sectionGaleria figure figcaption {
+      font-weight: bold;
+      font-size: 2.5em;
+      text-align: center;
+    }
+    .sectionGaleria figure p {
+      
+      font-size: 2em; 
+      text-align: center;
+      
+    }
+    .box-videos{
+      height:auto;
+      display: flex;
+      justify-content:space-around;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    .box-gato{
+    border: dashed black 4px; ;
+    height: 100px;
+    padding: 20px;
+    background-color:rgb(243, 134, 9) ;
+    height: auto;
+    align-items:center;
+    margin: 20px;
+    text-align: center;
+    border-radius:20px ;
+    }
+    
+    
+    
+    .lista{
+    list-style-type: inside circle ;
+    margin-left: 20px;
+    font-size: 1.5rem
+    }
+    .cajas-flex{
+    display: flex;
+    justify-content: space-between;
+    }
+    .contenedor-grid
+{
+  display: grid; 
+    grid-template-columns: 30% 50% 20%;
+    grid-template-rows:repeat(6,auto) ;
+    grid-template-areas: 
+    "boton boton boton"
+    "header header header"
+    "main main aside"
+    "footer footer footer"  
+    ;
+}
+#boton{
+grid-area:boton ;
+}
+#header{
+grid-area: header;
+}
+#main{
+grid-area: main;
+}
+#aside
+{
+  grid-area: aside;
+}
+#imagenes{
+grid-area: imagenes;
+}
+#footer{
+grid-area: footer;
+}
+.icono-gato{
+  display: flex;
+  flex-direction:row;
+}
+.icono-size{
+  width: 150px;
+  height: 150px;
+}
+.contenedor-index{
+  display: grid; 
+    grid-template-columns:auto auto ;
+    grid-template-rows:repeat(4 auto);
+    grid-template-areas: 
+    "navIndex navIndex navIndex"
+    "headerIndex headerIndex"
+    "formulario textocaja"
+    "footerIndex footerIndex";
+  }
+
+
+
+#headerIndex{
+grid-area: headerIndex;
+}
+#navIndex{
+grid-area: navIndex;
+}
+#footerIndex{
+grid-area: footerIndex ;
+}
+#formulario{
+  grid-area:formulario ;
+}
+#textocaja{
+  grid-area: textocaja;
+}
+.conteiner-error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

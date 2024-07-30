@@ -1,0 +1,33 @@
+@import "varsFonts";
+@import "anidacion&selectores";
+@import "clases";
+@import "media";
+
+
+
+
+
+body
+{
+background-color: $colorFondo; 
+background-repeat: repeat; 
+background-attachment: fixed;
+background-size:cover ;
+}
+
+h1{
+       color: $colorFuentes; 
+       font-weight: 800; 
+       font-size: 4rem; 
+       text-align: center;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+h2 {
+  font-size: 3rem;;
+}
+h3{
+color: $colorFuentes;
+font-size: 2.2rem;
+text-align: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

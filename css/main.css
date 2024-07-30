@@ -1,0 +1,401 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #F2C6C2;
+}
+nav ul {
+  list-style: georgian;
+  display: flex;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+form label {
+  display: block;
+}
+form label input {
+  width: 70%;
+}
+
+div.cajasAdopcion figure img {
+  border-radius: 15px;
+}
+
+div.cajasAdopcion figure p {
+  font-weight: bolder;
+}
+
+section.sectionGaleria figure a {
+  text-decoration: none;
+}
+
+div.boton.text-bolder {
+  text-decoration: none;
+}
+
+p {
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+section.sectionGaleria div.cajasAdopcion:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.text-bolder {
+  font-weight: bolder;
+}
+
+.cajasAdopcion {
+  background-color: lightcyan;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(10, 10, 10, 0.5);
+  box-shadow: 3px 3px 15px rgba(10, 10, 10, 0.5);
+}
+
+.boton {
+  background-color: pink;
+  text-align: center;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navsize {
+  font-size: large;
+}
+
+.text-rosargb {
+  color: rgb(247, 63, 94);
+}
+
+.text-violet {
+  color: violet;
+}
+
+.text-violetargb {
+  color: rgb(228, 99, 233);
+}
+
+.text-naranja {
+  color: orange;
+}
+
+.text-center {
+  text-align: center;
+  align-items: start;
+  font-size: x-large;
+}
+
+.text-right {
+  text-align: start;
+  font-size: x-large;
+  font-style: normal;
+}
+
+.img-header {
+  width: 100%;
+}
+
+.redes-Center {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #F28585;
+  margin-top: 10px;
+}
+
+.footer-flex {
+  background-color: #F28585;
+  display: flex;
+  display: block;
+  margin-top: 100px;
+}
+
+.text-left {
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: normal;
+  text-decoration: overline;
+}
+
+.box-contacto {
+  background-color: #fcc4c4;
+  border: solid #f7938a;
+  margin-right: 10px;
+  font-size: 1.8rem;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.box-texto {
+  background-color: rgb(210, 241, 163);
+  width: auto;
+  height: auto;
+  border: dashed orange;
+  margin: 50px 20px;
+  padding: 50px 80px;
+  overflow: auto;
+}
+
+#btnError {
+  text-decoration: none;
+}
+
+.tamaño-formulario {
+  font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: aliceblue;
+  color: #F28585;
+}
+
+.caja-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.titulo-principal {
+  text-align: center;
+}
+
+.botonera ul li a:hover {
+  color: orange;
+  font-weight: 600;
+  background-size: 100% 3px;
+}
+
+.botonera ul li a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: rgba(255, 68, 0, 0.788);
+  background: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+.sectionGaleria {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: space-evenly;
+}
+
+.img-adoptados {
+  width: 250px;
+  height: 300px;
+}
+
+.sectionGaleria figure figcaption {
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.sectionGaleria figure p {
+  font-size: 2em;
+  text-align: center;
+}
+
+.box-videos {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.box-gato {
+  border: dashed black 4px;
+  height: 100px;
+  padding: 20px;
+  background-color: rgb(243, 134, 9);
+  height: auto;
+  align-items: center;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.lista {
+  list-style-type: inside circle;
+  margin-left: 20px;
+  font-size: 1.5rem;
+}
+
+.cajas-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-grid {
+  display: grid;
+  grid-template-columns: 30% 50% 20%;
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas: "boton boton boton" "header header header" "main main aside" "footer footer footer";
+}
+
+#boton {
+  grid-area: boton;
+}
+
+#header {
+  grid-area: header;
+}
+
+#main {
+  grid-area: main;
+}
+
+#aside {
+  grid-area: aside;
+}
+
+#imagenes {
+  grid-area: imagenes;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+.icono-gato {
+  display: flex;
+  flex-direction: row;
+}
+
+.icono-size {
+  width: 150px;
+  height: 150px;
+}
+
+.contenedor-index {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(4 auto);
+  grid-template-areas: "navIndex navIndex navIndex" "headerIndex headerIndex" "formulario textocaja" "footerIndex footerIndex";
+}
+
+#headerIndex {
+  grid-area: headerIndex;
+}
+
+#navIndex {
+  grid-area: navIndex;
+}
+
+#footerIndex {
+  grid-area: footerIndex;
+}
+
+#formulario {
+  grid-area: formulario;
+}
+
+#textocaja {
+  grid-area: textocaja;
+}
+
+.conteiner-error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+  .contenedor-index {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 20vh auto auto 20vh;
+    grid-template-areas: "navIndex" "textocaja" "formulario" "footerIndex";
+  }
+  .img-header {
+    display: none;
+  }
+  .cajas-flex {
+    display: block;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-contacto {
+    width: 80%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .contenedor-grid {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh auto auto auto 10vh;
+    grid-template-areas: "boton" "header" "main" "aside" "footer";
+  }
+  #aside {
+    align-items: center;
+  }
+  #main {
+    margin-top: 100px;
+  }
+  #imgError {
+    width: 99%;
+    height: auto;
+  }
+}
+body {
+  background-color: #f3e5d3;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: #F28585;
+  font-weight: 800;
+  font-size: 4rem;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  color: #F28585;
+  font-size: 2.2rem;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
